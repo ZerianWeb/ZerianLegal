@@ -3,181 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zerian — Server Control Reinvented</title>
+<title>Zerian Privacy Policy</title>
 
 <style>
-/* ===================== GLOBAL ===================== */
-html { scroll-behavior: smooth; }
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: radial-gradient(circle at top, #0f172a, #020617);
+    background: #020617;
     color: #e2e8f0;
+    line-height: 1.6;
 }
 
-/* ===================== NAV ===================== */
-nav {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 25px;
-    background: rgba(2,6,23,0.6);
-    backdrop-filter: blur(15px);
-    border-bottom: 1px solid rgba(56,189,248,0.2);
-}
-
-nav h1 {
-    margin: 0;
-    color: #38bdf8;
-    text-shadow: 0 0 10px #38bdf8;
-}
-
-nav a {
-    color: #cbd5e1;
-    margin-left: 20px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #38bdf8;
-}
-
-/* ===================== HERO ===================== */
-.hero {
+header {
     text-align: center;
-    padding: 110px 20px;
-    animation: fadeIn 1.2s ease-in-out;
+    padding: 30px;
+    background: #0f172a;
 }
 
-.hero h2 {
-    font-size: 48px;
+h1 {
     color: #38bdf8;
-    text-shadow: 0 0 25px #38bdf8;
+    margin: 0;
 }
 
-.hero p {
-    max-width: 650px;
+.container {
+    max-width: 900px;
     margin: auto;
-    color: #94a3b8;
-}
-
-.btn {
-    display: inline-block;
-    margin: 15px;
-    padding: 12px 25px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.primary {
-    background: #38bdf8;
-    color: #020617;
-    box-shadow: 0 0 20px #38bdf8;
-}
-
-.primary:hover {
-    transform: scale(1.05);
-}
-
-.secondary {
-    border: 1px solid #38bdf8;
-    color: #38bdf8;
-}
-
-.secondary:hover {
-    background: rgba(56,189,248,0.1);
-}
-
-/* ===================== GLASS CARDS ===================== */
-.section {
-    padding: 70px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.glass {
-    background: rgba(15,23,42,0.6);
-    border: 1px solid rgba(56,189,248,0.2);
-    backdrop-filter: blur(12px);
-    border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 0 25px rgba(56,189,248,0.08);
 }
 
-/* ===================== FEATURES ===================== */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 15px;
-}
-
-.card {
-    padding: 15px;
-    border-radius: 12px;
-    background: rgba(15,23,42,0.7);
-    border: 1px solid rgba(56,189,248,0.15);
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 20px rgba(56,189,248,0.2);
-}
-
-/* ===================== COMMANDS ===================== */
-.command {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid rgba(148,163,184,0.1);
-    font-family: monospace;
-}
-
-.tag {
+h2 {
     color: #38bdf8;
+    margin-top: 30px;
 }
 
-/* ===================== STATUS ===================== */
-.status {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 12px;
-    border-radius: 20px;
-    background: rgba(34,197,94,0.15);
-    color: #22c55e;
-    font-size: 14px;
-}
-
-.dot {
-    width: 8px;
-    height: 8px;
-    background: #22c55e;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #22c55e;
-    animation: pulse 1.5s infinite;
-}
-
-/* ===================== ANIMATIONS ===================== */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.4); opacity: 0.6; }
-    100% { transform: scale(1); opacity: 1; }
-}
-
-/* ===================== FOOTER ===================== */
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
+    background: #0f172a;
     color: #94a3b8;
 }
 </style>
@@ -185,77 +47,96 @@ footer {
 
 <body>
 
-<!-- NAV -->
-<nav>
-    <h1>Zerian</h1>
-    <div>
-        <a href="#features">Features</a>
-        <a href="#commands">Commands</a>
-        <a href="#status">Status</a>
-    </div>
-</nav>
+<header>
+    <h1>Zerian Privacy Policy</h1>
+    <p>Last Updated: April 2026</p>
+</header>
 
-<!-- HERO -->
-<section class="hero">
-    <h2>Control your Discord server like a system admin.</h2>
-    <p>Zerian is a modern automation + moderation bot built for power, speed, and full server control.</p>
+<div class="container">
 
-    <a class="btn primary" href="https://discord.com/oauth2/authorize?client_id=YOUR_ID&scope=bot">
-        Invite Zerian
-    </a>
+<h2>1. Introduction</h2>
+<p>
+Zerian ("we", "our", or "us") operates a Discord bot designed to enhance server functionality 
+through moderation, automation, and utility features. This Privacy Policy explains what data 
+we collect, how we use it, and your rights regarding that data.
+</p>
 
-    <a class="btn secondary" href="https://discord.gg/YOUR_SUPPORT">
-        Support Server
-    </a>
-</section>
+<h2>2. Information We Collect</h2>
+<p>When you use Zerian, we may collect and store the following information:</p>
+<ul>
+    <li><strong>User Data:</strong> Discord User IDs</li>
+    <li><strong>Server Data:</strong> Guild IDs, roles, and configuration settings</li>
+    <li><strong>Channel Data:</strong> Channel IDs for logging and automation</li>
+    <li><strong>Message Data:</strong> Limited message content only when required for commands or moderation</li>
+    <li><strong>Usage Data:</strong> Commands used and interaction logs</li>
+</ul>
 
-<!-- FEATURES -->
-<section id="features" class="section">
-    <div class="glass">
-        <h2>⚡ Features</h2>
+<h2>3. How We Use Your Information</h2>
+<p>Your data is used strictly to:</p>
+<ul>
+    <li>Provide and maintain bot functionality</li>
+    <li>Execute commands requested by users</li>
+    <li>Improve features and performance</li>
+    <li>Prevent abuse, spam, and misuse</li>
+</ul>
 
-        <div class="grid">
-            <div class="card">⚡ Fast moderation tools</div>
-            <div class="card">🛠 Auto role & automation</div>
-            <div class="card">🔒 Secure permission system</div>
-            <div class="card">📊 Server logging system</div>
-        </div>
-    </div>
-</section>
+<h2>4. Data Storage and Security</h2>
+<p>
+Data is stored securely using industry-standard practices. While we take reasonable measures 
+to protect your data, no system is 100% secure, and we cannot guarantee absolute security.
+</p>
 
-<!-- COMMANDS -->
-<section id="commands" class="section">
-    <div class="glass">
-        <h2>📈 Commands Preview</h2>
+<h2>5. Data Retention</h2>
+<p>
+We retain data only as long as necessary to provide services. Data may be deleted upon request 
+or when it is no longer required.
+</p>
 
-        <div class="command"><span class="tag">/ban</span><span>Ban a user</span></div>
-        <div class="command"><span class="tag">/kick</span><span>Kick a user</span></div>
-        <div class="command"><span class="tag">/mute</span><span>Mute a user</span></div>
-        <div class="command"><span class="tag">/warn</span><span>Warn a user</span></div>
-        <div class="command"><span class="tag">/logs</span><span>View server logs</span></div>
-    </div>
-</section>
+<h2>6. Data Sharing</h2>
+<p>
+We do not sell, rent, or trade your personal data. Data may only be shared:
+</p>
+<ul>
+    <li>If required by law or legal obligation</li>
+    <li>To protect the security and integrity of the bot</li>
+</ul>
 
-<!-- STATUS -->
-<section id="status" class="section">
-    <div class="glass">
-        <h2>🤖 Bot Status</h2>
+<h2>7. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+    <li>Request access to your data</li>
+    <li>Request deletion of your data</li>
+    <li>Withdraw consent at any time</li>
+</ul>
 
-        <p>
-            Status:
-            <span class="status">
-                <span class="dot"></span> Online
-            </span>
-        </p>
+<h2>8. Third-Party Services</h2>
+<p>
+Zerian relies on third-party services such as Discord’s API. These services may collect and 
+process data according to their own privacy policies.
+</p>
 
-        <p style="color:#94a3b8;">
-            Uptime: 99.98% • Response: ~120ms
-        </p>
-    </div>
-</section>
+<h2>9. Children’s Privacy</h2>
+<p>
+Zerian does not knowingly collect data from individuals under the age required by Discord’s 
+Terms of Service.
+</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>
+We may update this Privacy Policy at any time. Continued use of Zerian indicates acceptance 
+of the updated policy.
+</p>
+
+<h2>11. Contact Information</h2>
+<p>
+If you have any questions or requests regarding your data, please contact us through the 
+official Zerian Discord support server.
+</p>
+
+</div>
 
 <footer>
-    © 2026 Zerian — Built for power servers.
+    © 2026 Zerian Bot. All rights reserved.
 </footer>
 
 </body>
